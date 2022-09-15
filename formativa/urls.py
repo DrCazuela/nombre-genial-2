@@ -17,10 +17,16 @@ from django.contrib import admin
 from django.urls import path
 from primeravista import views
 from brazilian import views as brazilian
+from mhword import views as monsterhunter
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('gatosa/', views.Levantar),
     path('simba/', brazilian.arriba),
     path('Channelle/', brazilian.gnomed),
+    path('capitan/', views.muerto),
+    path('tito/', monsterhunter.pepinillo),
+    path('manchitas/', monsterhunter.minibueno)
+
 ]

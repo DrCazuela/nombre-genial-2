@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def Levantar(response):
     return HttpResponse("<h1>Inicializando</h1> <br> <h4>por favor espere</h4>")
+
+def muerto(response):
+    return HttpResponse("<h1>Ya iniciamos</h1>")

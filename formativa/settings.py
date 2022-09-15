@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'primeravista',
     'brazilian',
+    'mhword',
 ]
 
 MIDDLEWARE = [
