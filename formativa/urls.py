@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from primeravista import views
+from brazilian import views as brazilian
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('gatosa/', views.Levantar),
+    path('simba/', brazilian.arriba),
+    path('Channelle/', brazilian.gnomed),
 ]
