@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from primeravista import views
+from mhword import views as monsterhunter
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('gatosa/', views.Levantar),
+    path('capitan/', views.muerto),
+    path('tito/', monsterhunter.pepinillo),
+    path('manchitas/', monsterhunter.minibueno)
 ]
